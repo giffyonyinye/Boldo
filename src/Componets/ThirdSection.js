@@ -6,11 +6,11 @@ import { Set } from "./Set";
 const ThirdSection = () => {
   return (
     <div className="bg-[#0A2640] py-[96px]  ">
-      <div className="flex  justify-between">
+      <div className="lg:flex  justify-between">
         <h1 className="text-white ml-[150px] text-[48px] font-normal  ">
           An enterprise template to ramp <br /> up your company website
         </h1>
-        <div className="flex gap-[28px] mt-[83px] mr-[100px] ">
+        <div className="lg:flex hidden gap-[28px] mt-[83px] mr-[100px] ">
           <img
             src={arrowRight}
             alt=""
@@ -23,11 +23,11 @@ const ThirdSection = () => {
           />
         </div>
       </div>
-      <div className="flex gap-[22px] px-[150px] pt-[72px] mb-[96px]  ">
+      <div className="lg:flex gap-[22px] px-[150px]  pt-[72px] mb-[96px]  ">
         {Set.map((card, index) => (
           <div
             key={index}
-            className="bg-white text-black w-[350px] rounded-xl   "
+            className="bg-white text-black w-[350px] rounded-xl mt-4   "
           >
             <div className="px-[40px] text-[24px] font-normal pt-[40px]">
               {card.comment}

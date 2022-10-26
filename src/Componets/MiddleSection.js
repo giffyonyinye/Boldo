@@ -5,7 +5,7 @@ const MiddleSection = () => {
   return (
     <div className=" pl-[156px]">
       {Data.map((datum, index) => (
-        <div key={index} className="flex justify-between gap-[100px]">
+        <div key={index} className="lg:flex justify-between gap-[100px] ">
           <div>
             <div className=" mt-[197px]   h-[px] w-[394px]">
               
@@ -19,7 +19,7 @@ const MiddleSection = () => {
               {datum.imager1}
             </div>
           </div>
-          <div className="   mt-[263px]  ">
+          <div className="   lg:mt-[263px]  ">
             <div className="pr-[107px] font-normal text-[36px]">
               {datum.header}
             </div>

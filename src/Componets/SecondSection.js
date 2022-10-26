@@ -15,7 +15,7 @@ const SecondSection = () => {
         </h1>
       </div>
       <div className="lg:grid grid-cols-3 gap-[100px] mt-[78px] ">
-        <div>
+        <div className="mt-5">
           <img
             src={card}
             alt=""
@@ -31,7 +31,7 @@ const SecondSection = () => {
             <p className="font-bold text-[20px]">Explore page</p>
             <img src={arrow} alt="" />
           </div>
-          <img src={line} alt="" className="pt-[8px]" />
+          <img src={line} alt="" className="pt-[8px] mb-[40px]" />
         </div>
         <div>
           <img
