@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="smallLaptop:w-[300px]">
         <img src={logo} className="w-[100px] smallLaptop:w-[162.22px]" alt="logo" />
         <div className="font-openSans text-Gray-100">
-          <p className="leading-7  mt-10">Social media validation business model canvas graphical user interface launch party creative facebook iPad twitter.</p>
+          <p className="leading-7 mt-5  smallLaptop:mt-10">Social media validation business model canvas graphical user interface launch party creative facebook iPad twitter.</p>
         </div>
       </div>
       <div className="z-20 font-openSans mt-6 smallLaptop:mt-0 tablet:flex justify-between tablet:w-[150px] smallLaptop:ml-[179px] tablet:gap-[96px]">
