@@ -19,7 +19,7 @@ const Blog = () => {
         </div>
         <div className="font-openSans tablet:grid tablet:grid-cols-2 smallLaptop:grid-cols-3 smallLaptop:gap-[100px] mt-10 smallLaptop:mt-[78px] ">
           {BlogData.map((data, index) => (
-            <div key={index} className="smallLaptop:mt-5 h-[424px] flex flex-col smallLaptop:justify-between">
+            <div key={index} className="smallLaptop:mt-5 h-[424px] mt-4  flex flex-col smallLaptop:justify-between">
               <div>
                 <div className="w-full smallLaptop:w-[300px]">
                   <img src={data.image} alt="" className="w-full  rounded-3xl mt-6 "/>

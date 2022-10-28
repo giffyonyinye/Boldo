@@ -13,7 +13,7 @@ const SaveTime = () => {
       <div>
         <div className="z-20 text-black px-3 smallLaptop:flex smallLaptop:px-[100px]">
           <div className="pt-12 smallLaptop:pt-[120px] smallLaptop:w-1/2">
-            <h1 className="pb-4 text-center smallLaptop:text-left text-24 tablet:text-[40px] smallLaptop:text-[48px] tablet:leading-[72px] smallLaptop:w-[601px] font-manrope">
+            <h1 className="pb-4 text-center smallLaptop:text-left text-[28px] tablet:text-[40px] smallLaptop:text-[48px] tablet:leading-[72px] smallLaptop:w-[601px] font-manrope">
               Save time by building fast with Boldo Template
             </h1>
             <p className="pb-10 leading-7 text-16 text-Gray-100 font-openSans">

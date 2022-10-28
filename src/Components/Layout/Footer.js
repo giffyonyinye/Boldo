@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <>
-    <div className="smallLaptop:flex smallLaptop:pl-[100px] p-3 smallLaptop:mt-[184px] smallLaptop:pb-[100px]">
+    <div className="smallLaptop:flex smallLaptop:pl-[100px] p-3 mt-10 smallLaptop:mt-[184px] smallLaptop:pb-[100px]">
       <div className="smallLaptop:w-[300px]">
         <img src={logo} className="w-[100px] smallLaptop:w-[162.22px]" alt="logo" />
         <div className="font-openSans text-Gray-100">
