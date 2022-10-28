@@ -1,19 +1,21 @@
-import logo from "./logo.svg";
 import "./App.css";
-import NavBar from "./Componets/homePage/NavBar";
-import FirstSection from "./Componets/FirstSection";
-import SecondSection from "./Componets/SecondSection";
-import MiddleSection from "./Componets/MiddleSection";
-import ThirdSection from "./Componets/ThirdSection";
-import ForthSection from "./Componets/ForthSection";
-import SubForth from "./Componets/SubForth";
-import Contact from "./Componets/Contact";
-import Footer from "./Componets/homePage/Footer";
+import HomePage from "./Components/LandingPage/HomePage";
+// import SecondSection from "./Componets/SecondSection";
+// import MiddleSection from "./Componets/MiddleSection";
+// import ThirdSection from "./Componets/ThirdSection";
+// import ForthSection from "./Componets/ForthSection";
+// import SubForth from "./Componets/SubForth";
+// import Contact from "./Componets/Contact";
+// import Footer from "./Componets/Layout/Footer";
+import BaseLayout from "./Components/Layout/BaseLayout";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <BaseLayout>
+        <HomePage/>
+      </BaseLayout>
+      {/* <NavBar />
       <FirstSection />
       <SecondSection />
       <MiddleSection />
@@ -21,7 +23,7 @@ function App() {
       <ForthSection />
       <SubForth />
       <Contact />
-      <Footer/>
+      <Footer/> */}
     </div>
   );
 }
