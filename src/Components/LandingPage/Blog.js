@@ -1,6 +1,6 @@
 import React from "react";
 import cardImage from "../../Images/Rectangle 1270 (5).svg";
-import cardImage1 from "../../Images/Rectangle 1270 (6).svg";
+import cardImage1 from "../../Images/woman2.png";
 import cardImage2 from "../../Images/Rectangle 1270 (7).svg";
 import thumbnail from "../../Images/Ellipse 10 (1).svg";
 import thumbnail1 from "../../Images/Ellipse 10.svg";
