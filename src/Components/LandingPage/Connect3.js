@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../Images/Image.svg";
+import image from "../../Images/people.png";
 import chevronDown from "../../Images/chevron-down.svg";
 
 const Connect3 = () => {

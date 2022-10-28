@@ -1,5 +1,5 @@
 import React from "react";
-import woman from "../../Images/woman.svg";
+import woman from "../../Images/woman.png";
 import piechart from "../../Images/piechart.svg";
 import sun from "../../Images/sun.svg";
 import eye from "../../Images/eye.svg";

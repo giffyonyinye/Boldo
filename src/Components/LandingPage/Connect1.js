@@ -1,5 +1,5 @@
 import React from "react";
-import rec from "../../Images/man.svg";
+import rec from "../../Images/man.png";
 import check from "../../Images/check.svg";
 import barChart from "../../Images/barchart.svg";
 import CustomButton from "../Atoms/CustomButton";
