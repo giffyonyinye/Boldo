@@ -11,7 +11,7 @@ const Connect3 = () => {
           We connect our customers with the best, and help them keep
           up-and stay open.
         </h1>
-        <div className="font-openSans mt-6 smallLaptop:mt-0 smallLaptop:ml-[60px] bigLaptop:ml-[100px] ">
+        <div className="font-openSans mt-8 smallLaptop:mt-0 smallLaptop:ml-[60px] bigLaptop:ml-[100px] ">
           <div className="border-b-2 pb-4  border-b-Gray-300">
             <div className="flex justify-between">
               <p className="smallLaptop:mr-8">We connect our customers with the best?</p>
