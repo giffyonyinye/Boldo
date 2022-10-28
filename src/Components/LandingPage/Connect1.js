@@ -19,7 +19,7 @@ const Connect1 = () => {
             <div className="" key={index}>
               <div className="flex gap-2 smallLaptop:gap-7 mt-6">
                 <img src={check} alt="check" />
-                <p>{data}</p>
+                <p className="mt-1">{data}</p>
               </div>  
             </div>
           ))}
